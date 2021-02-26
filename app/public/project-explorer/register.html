@@ -1,0 +1,118 @@
+
+<head>
+    <link rel="stylesheet" href="C:\Users\ASUS\Documents\edconnect-weekly\app\public\css\bootstrap.min.css">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary container-fluid">
+
+        <div>
+            <a class="navbar-brand" href="index.html"><h3>Project Explorer</h3></a>
+        </div>
+
+        <div class="container d-flex">
+
+            <form class="form-inline" name="searchForm">
+
+                <div>
+                    <input class="form-control" type="search" placeholder="Search Projects" aria-label="Search">
+                </div>
+            
+                <div>
+                    <button class="btn form-control btn-outline-light" type="submit">Search</button>
+                </div>
+
+                <div>
+                    <a class="btn form-control" style="color:white;" href="#">Submit</a>
+                </div>  
+           
+            </form>
+
+            <div class="justify-content-end float-right">
+                <a class="btn text-nowrap" style="color:white;" href="register.html">Sign up</a>
+            </div>
+            <div class="d-flex justify-content-end">
+                <a class="btn text-nowrap"style="color:white; float: right;" href="login.html">Login</a>
+            </div>
+        </div>
+
+        <!--<div class="container d-flex flex-row-reverse">
+            <div class="float-right">
+                <a class="btn"style="color:white;" href="login.html">Login</a>
+            </div>
+            <div>
+                <a class="btn" style="color:white;" href="register.html">Sign up</a>
+            </div>
+        </div>-->
+    </nav>        
+</header>
+
+<main class="mx-auto pt-5 w-75 container">
+    <h1> Signup </h1>
+    <form>
+        <div class="form-row ">
+            <div class="form-group col-6">
+                <label>First Name</label>  <input class="form-control" type="text" placeholder="First Name" name="firstName"/>
+            </div>
+           
+            <div class="form-group col-6">
+                <label>Last Name</label>
+                 <input class="form-control" type="text" placeholder="Last Name" name="lastName"/>
+            </div>
+           
+          
+           <div class="form-group col-6">
+                <label>Email Address</label> 
+                 <input class="form-control" type="email" placeholder="Your Email address" name="email"/>
+           </div>
+            
+            
+            <div class="form-group col-6">
+                <label>Password</label>
+                 <input class="form-control" type="password" placeholder="Your Password" name="password"/>
+            </div>
+            
+            <div class="form-group col-6">
+                <label>Program</label>
+                <select class="form-control" name="program">
+                    <option selected>Choose...</option>
+                    <option value="computer_science">Computer Science</option>
+                    <option value="computer_information_systems">Computer Information Systems</option>
+                    <option value="computer_technology">Computer Technology</option>
+                 </select>
+            </div>
+
+           <div class="form-group col-3">
+                <label>Matric Number</label> 
+                 <input class="form-control" type="text" placeholder="e.g U07GL1070" name="matricNumber"/>
+           </div>
+            
+            
+            <div class="form-group col-3">
+                <label>Graduation Year</label> 
+               <select class="form-control" type="file" name="graduationYear">
+                   <option selected>Choose...</option>
+                   <option value="2013">2013</option>
+                   <option value="2014">2014</option>
+                   <option value="2015">2015</option>
+                   <option value="2016">2016</option>
+                   <option value="2017">2017</option>
+                   <option value="2018">2018</option>
+                   <option value="2019">2019</option>
+                   <option value="2020">2020</option>
+               </select>
+           
+            </div>
+        </div>  
+       <input class="btn btn-primary" type="submit"/>
+    </form>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>  
+</main>
+<footer class="footer bg-light container" style="text-align: end">
+    Project Explorer &#169 2021 <strong>Nakoseda Group</strong>
+</footer>
