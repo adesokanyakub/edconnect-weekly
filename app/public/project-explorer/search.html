@@ -55,7 +55,7 @@
         <form name="searchTerm">
             <div class="form-row form-group">
                 <div class="col-7">
-                    <input class="form-control form-control-lg" type="text" placeholder="Search project Name, authors, abstracts, tags"/>
+                    <input class="form-control form-control-lg" type="text" name="searchTerm" placeholder="Search project Name, authors, abstracts, tags"/>
                 </div>
                 <div class="col">
                     <button class="btn btn-lg btn-outline-dark form-control form-control-lg">Search by</button>
@@ -63,10 +63,10 @@
 
                 <div class="col">
                     <select type="select" class="form-control form-control-lg">
-                        <option class="form-control form-control-lg" value="Name">Name</option>
-                        <option  class="form-control form-control-lg" value="Abstract">Abstract</option>
-                        <option  class="form-control form-control-lg" value="Authors">Authors</option>
-                        <option  class="form-control form-control-lg" value="Tags">Tags</option>
+                        <option class="form-control form-control-lg" name="Name" value="Name">Name</option>
+                        <option  class="form-control form-control-lg" name="Abstract" value="Abstract">Abstract</option>
+                        <option  class="form-control form-control-lg" name="Authors" value="Authors">Authors</option>
+                        <option  class="form-control form-control-lg" name="Tags" value="Tags">Tags</option>
                     </select>
                 </div>
                 
