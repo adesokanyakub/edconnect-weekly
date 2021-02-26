@@ -50,8 +50,35 @@
     <div>
         <h3>Project Gallery</h3>
     </div>
-    <form class="form-group" name="searchForm">
-    <div name="searchForm" class="row form-rowcontainer bg-light p-3">
+
+    <div class="bg-light p-3">
+        <form name="searchForm">
+            <div class="form-row form-group">
+                <div class="col-7">
+                    <input class="form-control form-control-lg" type="text" placeholder="Search project Name, authors, abstracts, tags"/>
+                </div>
+                <div class="col">
+                    <button class="btn btn-lg btn-outline-dark form-control form-control-lg">Search by</button>
+                </div>
+
+                <div class="col">
+                    <select type="select" class="form-control form-control-lg" name="searchType">
+                        <option class="form-control form-control-lg" value="Name">Name</option>
+                        <option  class="form-control form-control-lg" value="Abstract">Abstract</option>
+                        <option  class="form-control form-control-lg" value="Authors">Authors</option>
+                        <option  class="form-control form-control-lg" value="Tags">Tags</option>
+                    </select>
+                </div>
+                
+                <div class="col">
+                    <button class="form-control form-control-lg btn btn-lg btn-primary" type="submit">Submit</button>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    <!--<form class="form-group" name="searchForm">
+    <div class="row form-rowcontainer bg-light p-3">
         <div name="searchForm" class="col-7 form-group">
                 <input class="form-control form-control-lg" name="searchForm" type="text" placeholder="Project Name, Authors, Abstract, Tags"/>
         </div>
@@ -71,7 +98,7 @@
             <button name="searchForm" class="form-control form-control-lg btn btn-lg btn-primary" type="submit">Search</button>
         </div>
     </div>
-    </form>
+    </form>-->
 </br>
 </br>
 </br>
